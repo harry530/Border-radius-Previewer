@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" async></script>
+    <title>Border-radius Previewer</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Border-radius Previewer</h1>
+        <div class="child-1">
+            <div class="div-1">
+                <p>Choose which corner will withstand the change : </p>
+                <form action="/example.html" id="tete">
+                    <p><span id="spa"></span></p>
+                    <label for="two" style="color: #0f9b0f;">Yes</label>
+                    <label for="two" style="color: #0f9b0f;">No</label>
+                </form>
+
+                <br>
+                <form action="/example.html">
+                    <label for="two">Add rounded corners to top-left : </label>
+                    <input type="radio" id="one" name="answer" value="t-l">
+                    <input type="radio" id="two" name="answer" value="nt-l">
+                </form>
+
+
+                <br>
+                <form action="/example.html">
+                    <label for="eleven">Add rounded corners to top-right : </label>
+                    <input type="radio" id="three" name="answer1" value="t-r">
+                    <input type="radio" id="four" name="answer1" value="nt-r">
+                </form>
+
+
+                <br>
+                <form action="/example.html">
+                    <label for="eleven">Add rounded corners to bottom-right : </label>
+                    <input type="radio" id="five" name="answer2" value="b-r">
+                    <input type="radio" id="six" name="answer2" value="nb-r">
+                </form>
+
+
+                <br>
+                <form action="/example.html">
+                    <label for="eleven">Add rounded corners to bottom-left : </label>
+                    <input type="radio" id="seven" name="answer3" value="b-l">
+                    <input type="radio" id="eight" name="answer3" value="nb-l">
+                </form>
+
+
+                <br>
+                <form action="/example.html">
+                    <label for="in4" id="id4">The border radius value : </label>
+                    <input type="range" name="user-number" id="in4" step="1" max="175" min="0"
+                        oninput="showVal(this.value)" onchange="showVal(this.value)">
+                </form>
+
+
+            </div>
+            <div class="div-2">
+                <div id="div-22">The display Div</div>
+                <span id="id1" style="color: #001f3f;">0 px</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
