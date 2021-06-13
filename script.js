@@ -19,16 +19,16 @@ function showVal(newVal){
 
     idd1.innerHTML = newVal + " px";
 
-    if(i1.checked){
+    if(i1["checked"]){
         s.style.borderTopLeftRadius = newVal + "px";
     }
-    if(i3.checked){
+    if(i3["checked"]){
         s.style.borderTopRightRadius = newVal + "px";
     }
-    if(i5.checked){
+    if(i5["checked"]){
         s.style.borderBottomRightRadius = newVal + "px";
     }
-    if(i7.checked){
+    if(i7["checked"]){
         s.style.borderBottomLeftRadius = newVal + "px";
     }
 
